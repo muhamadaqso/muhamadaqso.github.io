@@ -1,7 +1,9 @@
+/*  hijau = #00e0d0
+    ungu =  # */
 body {
-    background-color: blanchedalmond;
-    background: lightgrey;
+    background-color: darkgoldenrod;
     text-align: center;
+    margin-top: 120px solid;
 }
 h1 {
     color: green;

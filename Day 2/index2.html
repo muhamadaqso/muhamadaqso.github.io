@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="header">YOU NEED COLOR</h1>
+    <button onclick="setbackground(randomizecolor())">RANDOMIZE COLOR</button>
+    <script>
+        function setbackground(color) {
+            
+        } setbackground(color) {
+            let html = document.getElementsByTagName('html')[0];
+            html.style.backgroundColor = color;
+        }
+
+        function randomizecolor() {
+            let n = Math.random() * (16 ** 6 - 1);
+            n = Number(n.toFixed(0));
+            n = n.toString(16);
+            let color = #${n};
+            return color;
+        }
+    </script>
+</body>
+</html>
