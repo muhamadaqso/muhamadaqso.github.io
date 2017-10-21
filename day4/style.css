@@ -1,12 +1,11 @@
 .btn {
     border-radius: 0;
 }
-
 .btn-success {
     background-color: #0c631b;
 }
 .intro {
-    margin: 10rem 0;
+    margin: 7rem 0;
 }
 .header {
     background-image: url(img/bg-header.jpg);
@@ -20,7 +19,8 @@
     color: #333;
   }
   .overlay{
-    background: rgba(49, 29, 94, 0.5);
+    background: rgba(49, 29, 94, 1);
+    opacity: 0.8;
     color: #fff;
     overflow: hidden;
   }
@@ -33,4 +33,35 @@
   .btn:hover {
     background-color: #00e0d0;
     color: #000;
+  }
+
+  .collapse ul li :hover {
+      transition: 0.5s;
+      color: #00e0d0;
+      font-size: 12px;
+  }
+.collapse ul li {
+    font-size: 13px;
+    font-style: bold;
+    font-family: 'Roboto';
+}
+body {
+    font-family: 'Roboto';
+    font-size: 14px;
+}
+.intro h1 {
+    font-family: 'Myriad Pro';
+    font-size: 32px; 
+    
+}
+
+/* slider */
+#slider-home .carousel-indicators {
+    position: relative;
+    top: 3rem;
+  }
+  .carousel-indicators li {
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
   }
